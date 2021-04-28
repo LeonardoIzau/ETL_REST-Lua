@@ -1,0 +1,3 @@
+Empregado (id, nome)
+DiaTrabalho (id, data, idEmpregado)
+Ponto (id, ponto, idDiaTrabalho)
