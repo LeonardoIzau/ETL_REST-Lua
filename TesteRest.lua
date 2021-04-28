@@ -1,3 +1,5 @@
 dtsc = require "DiaTrabalhoServiceController"
 json = dtsc.list()
-print(json)
+local file = io.open("RelExtraPorPeriodo.json",'w')
+file:write(json)
+file:close()
